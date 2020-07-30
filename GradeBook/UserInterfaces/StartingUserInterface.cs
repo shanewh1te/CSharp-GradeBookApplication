@@ -54,7 +54,7 @@ namespace GradeBook.UserInterfaces
             {
                 RankedGradeBook gradeBook = new RankedGradeBook(name);
                 Console.WriteLine("Created gradebook {0}.", name);
-                GradeBookUserInterface.CommandLoop(gradeBook);
+                //GradeBookUserInterface.CommandLoop(gradeBook);
             }
             else
             {
